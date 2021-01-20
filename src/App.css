@@ -1,0 +1,86 @@
+.foto{
+    /* bordas */
+    border-radius: 30px;
+    border-style: inset;
+    border-color:rgba(22, 94, 100, 0.493);
+
+    /* tamnho */
+    width: 170px;
+
+    /* deslocamentos */
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+body{
+    /* fundo */
+    background-image: url(img/fundo.jpg);
+    background-attachment: scroll;
+    background-size: 30%;
+}
+
+.informacoes{
+    /* texto */
+    font-family: cursive;
+    text-align: center;
+    color: white;
+
+    /* fundo */
+    background-color: rgba(0, 234, 255, 0.493);
+    
+    /* deslocamento */
+    margin-top: 75px;
+    margin-left: 380px;
+    margin-right: 380px;
+    
+    /* borda */
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+
+    /* tamanho */
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    min-width: 390px;
+}
+
+.botao{
+    /* borda */
+    border-radius: 8px;
+    border: none;
+
+    /* deslocamento */
+    margin-left: 10px;
+    padding: 4px;
+
+    /* texto */
+    font-size: 15px;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 700;
+
+    /* tamanho */
+    width: 120px;
+
+    /* cursor */
+    cursor: pointer;
+}
+
+.text{
+    /* texto */
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 700;
+
+    /* borda */
+    border-radius: 8px;
+
+    /* tamanho */
+    width: 30%;
+    min-width: 120px;
+    
+    /* deslocamento */
+    padding: 4px;
+}
